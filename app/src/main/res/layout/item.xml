@@ -10,10 +10,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_margin="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:srcCompat="@tools:sample/avatars[2]" />
+        android:layout_margin="25dp"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
 
     <TextView
         android:id="@+id/textView"
